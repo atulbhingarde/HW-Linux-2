@@ -4,18 +4,17 @@ echo $#
 # check if there are sufficient parameters passed 
 
 if [ $# -eq 2  ] ; then
+    # set the target directory that is first parameter
     TargetDir=$1
+    #set the target file to be created second parameter
     TargetFile=$2
+    # create the directory with -p option 
     mkdir -p ${TargetDir}
+    # load the targetfilel in nano editor
     nano ${TargetDir}/${TargetFile}
 else
     echo "inadequate parameters" 
 fi
 # for mkdircd Linux-Week-2 ClassNotes.txt
 
-# first parameter is the directory to be created 
-
-# secoond parameter is filename to work on 
-
-# try to create directory and check status 
 
