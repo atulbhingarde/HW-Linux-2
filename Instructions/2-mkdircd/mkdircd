@@ -1,0 +1,21 @@
+#!/bin/bash 
+echo $#
+
+# check if there are sufficient parameters passed 
+
+if [ $# -eq 2  ] ; then
+    TargetDir=$1
+    TargetFile=$2
+    mkdir -p ${TargetDir}
+    nano ${TargetDir}/${TargetFile}
+else
+    echo "inadequate parameters" 
+fi
+# for mkdircd Linux-Week-2 ClassNotes.txt
+
+# first parameter is the directory to be created 
+
+# secoond parameter is filename to work on 
+
+# try to create directory and check status 
+
