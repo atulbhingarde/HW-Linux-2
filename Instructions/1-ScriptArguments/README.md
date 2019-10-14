@@ -5,6 +5,10 @@
 - Print out `$0`. 
   - What does this contain?
 
+__** the $0 parameter is a command itself**__
+
+![command line echoed and first parameter if it exists]("./script_without_param.png")
+
 - Print out `$1`. 
   - What happens when you run the script _with_ arguments?
   - What happens when you run the script _without_ arguments?
