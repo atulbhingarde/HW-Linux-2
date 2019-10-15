@@ -25,3 +25,4 @@
   - Redirect the `$TARGET is UP` message to a file called `live_hosts`. Be sure to _append_ to the file with `>>` instead of using `>` (why?).
   - Redirect the `$TARGET is DOWN` message to a file called `down_hosts`.
   - Print the contents of each file after the loop completes.
+![ping sweep](pingsweep.png)
