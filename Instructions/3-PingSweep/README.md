@@ -20,9 +20,10 @@
   - If the ping is successful, print: `$TARGET is UP`
   - If the ping is _not_ successful, print: `$TARGET is DOWN`
   - **Hint**: You can "chain" operators, like: `cat nonexistent_file && echo "File exists!" || echo "File does not exist :("`
-
+![ping sweep](pingsweep.png)
 - **Challenge 2**
   - Redirect the `$TARGET is UP` message to a file called `live_hosts`. Be sure to _append_ to the file with `>>` instead of using `>` (why?).
   - Redirect the `$TARGET is DOWN` message to a file called `down_hosts`.
   - Print the contents of each file after the loop completes.
-![ping sweep](pingsweep.png)
+![file update](file_update.png)
+
