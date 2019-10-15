@@ -33,3 +33,6 @@ This exercise requires you to use positional parameters alongside everything you
   - **Hint**: `chmod`
 
  - Run `./mkdircd ExampleDirectory FirstFile` to test.
+ 
+![command line](command_execution.png)
+
