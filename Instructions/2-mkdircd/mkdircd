@@ -16,5 +16,3 @@ else
     echo "inadequate parameters" 
 fi
 # for mkdircd Linux-Week-2 ClassNotes.txt
-
-

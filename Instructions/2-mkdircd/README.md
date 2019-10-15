@@ -36,3 +36,6 @@ This exercise requires you to use positional parameters alongside everything you
  
 ![command line](command_execution.png)
 
+execution of commnd results into opening a file in editor
+![command line execution result](command_execution_result.png)
+
